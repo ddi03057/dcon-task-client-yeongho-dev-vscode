@@ -1,0 +1,40 @@
+.DS_Store
+node_modules
+/dist
+
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+/tests/e2e/visual-regression/**/__diff_output__
+/tests/e2e/screenshot/*
+.DS_Storeo
+.git/
+.vscode/
+.idea/
+
+package-lock.json
+node_modules/
+dist/
+/src/config/index.js
+src/config/index.js
+
+proxy-table.local.json

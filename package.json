@@ -1,0 +1,102 @@
+{
+  "name": "dcon-task-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "local": "vue-cli-service serve --mode local",
+    "development": "vue-cli-service serve --mode dev",
+    "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs"
+  },
+  "dependencies": {
+    "@meforma/vue-toaster": "^1.3.0",
+    "@vuepic/vue-datepicker": "^3.3.1",
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue-3": "^0.1.13",
+    "core-js": "^3.8.3",
+    "crypto-js": "^4.1.1",
+    "loadsh": "^0.0.4",
+    "mdb-vue-ui-kit": "^1.14.0",
+    "mitt": "^3.0.0",
+    "moment": "^2.29.3",
+    "primeicons": "^5.0.0",
+    "primevue": "^3.12.6",
+    "prismjs": "^1.23.0",
+    "schema-utils": "^3.1.1",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.13",
+    "vue": "^3.2.36",
+    "vue-calendar-3": "^1.3.23",
+    "vue-cookies": "^1.8.1",
+    "vue-i18n": "^9.2.0-beta.34",
+    "vue-next-select": "^2.10.4",
+    "vue-router": "^4.0.14",
+    "vue-sidebar-menu": "^5.2.2",
+    "vue3-datepicker": "^0.3.4",
+    "vue3-uuid": "^1.0.0",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.0.7",
+    "chalk": "^4.1.2",
+    "chromedriver": "^99.0.0",
+    "copy-webpack-plugin": "^5.1.2",
+    "cross-spawn": "^7.0.3",
+    "css-loader": "^4.3.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "jest": "^27.5.1",
+    "jest-serializer-vue": "^2.0.2",
+    "keycloak-js": "^16.1.1",
+    "lodash": "^4.17.21",
+    "nightwatch": "^2.0.10",
+    "node-notifier": "^8.0.2",
+    "node-sass": "^7.0.1",
+    "portfinder": "^1.0.28",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^4.3.0",
+    "postcss-url": "^10.1.3",
+    "sass-loader": "^12.6.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "url-loader": "^4.1.1",
+    "vite": "^2.3.8",
+    "vue-loader": "^16.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

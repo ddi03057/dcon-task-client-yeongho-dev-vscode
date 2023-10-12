@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  background-color: #f2f4f7;
+  color: #262626;
+}
+
+.dcon-menu-left {
+  padding-left: 290px;
+  transition: 0.3s ease;
+}
+.dcon-menu-left.collapsed {
+  padding-left: 65px;
+}
+.dcon-menu-left.onmobile {
+  padding-left: 65px;
+}
+.sidebar-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 900;
+}
+.dcon-left {
+  padding: 30px;
+}
+.container {
+  max-width: 900px;
+}
